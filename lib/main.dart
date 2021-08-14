@@ -39,8 +39,8 @@ class ItemTransferencia extends StatelessWidget
     return Card(
         child: ListTile(
           leading: Icon(Icons.monetization_on),
-          title: Text(this._transferencia.valor.toString()!),
-          subtitle: Text(this._transferencia.numeroConta.toString()!),
+          title: Text(this._transferencia.valor.toString()),
+          subtitle: Text(this._transferencia.numeroConta.toString()),
         )
     );
   }
